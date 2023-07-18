@@ -74,6 +74,11 @@ function createBoard() {
   startPieces.forEach((startPieces) => {
     const square = document.createElement("div");
     square.classList.add("square");
+    square.innerHTML = startPieces;
+    square.setAttribute('square-id', i);
+    square.classList.add("beige");
+    gameBoard.append(square);
   });
 }
-  console.log(startPieces)
+
+
