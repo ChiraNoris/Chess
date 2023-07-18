@@ -76,3 +76,4 @@ function createBoard() {
     square.classList.add("square");
   });
 }
+  console.log(startPieces)
